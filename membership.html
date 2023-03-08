@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Ship</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<style>
+.w-100 {
+  width: 100% !important;
+  height: 40vh;
+}
+@media (max-width: 767px) {
+		.carousel-inner .carousel-item > div {
+			display: none;
+		}
+		.carousel-inner .carousel-item > div:first-child {
+			display: block;
+		}
+	}
+	.carousel-inner .carousel-item.active,
+	.carousel-inner .carousel-item-next,
+	.carousel-inner .carousel-item-prev {
+		display: flex;
+	}
+	/* medium and up screens */
+	@media (min-width: 768px) {
+
+		.carousel-inner .carousel-item-end.active,
+		.carousel-inner .carousel-item-next {
+			transform: translateX(25%);
+		}
+		.carousel-inner .carousel-item-start.active, 
+		.carousel-inner .carousel-item-prev {
+			transform: translateX(-25%);
+		}
+	}
+	.carousel-inner .carousel-item-end,
+	.carousel-inner .carousel-item-start { 
+		transform: translateX(0);
+	}
+  nav{
+    color:white;
+  }
+</style>
+</head>
+<body style="background-color: rgb(53, 49, 49);">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ff0000;">
+        <div class="container-fluid">
+          <a class="navbar-brand"href="Home.html"><img src="images/logo1.png" 
+            style="margin-left: 10px; margin-right: 10px;"alt="logo3"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse fw-bold" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="navbar-brand"href="Home.html"><img src="images/home.png" 
+                  style="margin-left: 30px;"alt="logo "></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="membership.html" 
+                style="font-size: 1.1rem; margin-left: 30px; font-weight: bold;font-weight: bold;">MEMBERSHIP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="personaltraining.html" 
+                style="font-size: 1.1rem; margin-left: 30px; font-weight: bold;">PERSONAL TRAINING</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-left: 30px;font-size: 1.2rem; font-weight: bold;">
+                  CLASSES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="fitnesstraining.html">Fitness training</a></li>
+                  <hr>
+                  <li><a class="dropdown-item" href="selfdefence.html">Self-defence</a></li>
+                </ul>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="massage.html"
+                style="font-size: 1.1rem; margin-left: 30px;font-weight: bold;">MASSAGE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="sitemap.html"
+                style="font-size: 1.1rem; margin-left: 30px;font-weight: bold;">SITE MAP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="signin.html"
+                style="font-size: 1.1rem; margin-left: 30px;font-weight: bold;">SIGN IN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="signup.html"
+                style="font-size: 1.1rem; margin-left: 30px;font-weight: bold;">SIGN UP</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <br><br><br><br>
+    <p style="font-size: 20px;color: white;text-align: center;"><b style="font-size: 30px;">MEMBERSHIP</b>
+      <br>
+         <b style="font-size: 25px;color: rgb(201, 208, 208);">BECOME A MEMBER TODAY!</b><br>
+         All memberships include unlimited gym access during business hours and free <br>
+          group fitness classes. Also included in every new membership is a free one hour <br>
+           personal training session.
+          </p>
+           <div class="container">
+            <div class="row">
+              <!--First Col-->
+              <div class="col" style="margin: 3%; margin-left: 7%;">
+                <div class="row">
+                  <div style="width:300px; height: 100px; background-color: #ff0000; color:white;">
+                    <br>
+                    <h4 style="text-align: center; "><b>PAY MONTHLY</b></h4>
+                    <h5 style="text-align: center; ">Autopay with Contract</h5>
+                  </div>
+                </div>
+                <div class="row">
+                  <div style="width:300px; height: 500px; background-color: black; color:white;">
+                    <div class="row" style="margin-top:10%">
+                      <div class="col">Basic <br><span style="color:#ff0000">£25.00</span></div>
+                      <div class="col"><a href="signin.html"><button style="background-color: #ff0000;color: white;"><b>JOIN NOW</b></button></a></div>
+                    </div>
+                    <div class="row" style="margin-top:10%">
+                      <div class="col">Add-On<br><span style="color:#ff0000">£35.00</span></div>
+                      <div class="col"><a href="signin.html"><button style="background-color: #ff0000;color: white;"><b>JOIN NOW</b></button></a></div>
+                    </div>
+                    <div class="row" style="margin-top:10%">
+                      <div class="col">Military <br><span style="color:#ff0000">£45.00</span></div>
+                      <div class="col"><a href="signin.html"><button style="background-color: #ff0000;color: white;"><b>JOIN NOW</b></button></a></div>
+                    </div>
+                    <div class="row" style="margin-top:10%">
+                      <div class="col">Student<br><span style="color:#ff0000">£60.00</span></div>
+                      <div class="col"><a href="signin.html"><button style="background-color: #ff0000;color: white;"><b>JOIN NOW</b></button></a></div>
+                    </div>
+                    <div class="row" style="margin-top:10%">
+                      <div class="col">Family<br><span style="color:#ff0000">£15.00</span></div>
+                      <div class="col"><a href="signin.html"><button style="background-color: #ff0000;color: white;"><b>JOIN NOW</b></button></a></div>
+                    </div>
+                    <div class="row" style="margin-top:10%">
+                      <div class="col">Family<br><span style="color:#ff0000">£25.00</span></div>
+                      <div class="col"><a href="signin.html"><button style="background-color: #ff0000;color: white;"><b>JOIN NOW</b></button></a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div style="width:300px; height: 200px; background-image: url(images/membershipbg.jpg); color:white;">
+                  </div>
+                </div>  
+              </div>
+                <!--End First Col-->
+                <!--Second Col-->
+              <div class="col" style="margin: 3%; margin-left: 7%;">
+                <div class="row">
+                  <div style="width:300px; height: 100px; background-color: #ff0000; color:white;">
+                    <br>
+                    <h4 style="text-align: center; "><b>PAY YEARLY</b></h4>
+                    <h5 style="text-align: center; ">Prepaid Contract</h5>
+                    
+                  </div>
+                </div>
+                <div class="row">
+                  <div style="width:300px; height: 500px; background-color: black; color:white;">
+                    <div class="row" style="margin-top:10%">
+                      <div class="col">Basic <br><span style="color:#ff0000">£25.00</span></div>
+                      <div class="col"><a href="signin.html"><button style="background-color: #ff0000;color: white;"><b>JOIN NOW</b></button></a></div>
+                    </div>
+                    <div class="row" style="margin-top:10%">
+                      <div class="col">Add-On<br><span style="color:#ff0000">£35.00</span></div>
+                      <div class="col"><a href="signin.html"><button style="background-color: #ff0000;color: white;"><b>JOIN NOW</b></button></a></div>
+                    </div>
+                    <div class="row" style="margin-top:10%">
+                      <div class="col">Military <br><span style="color:#ff0000">£45.00</span></div>
+                      <div class="col"><a href="signin.html"><button style="background-color: #ff0000;color: white;"><b>JOIN NOW</b></button></a></div>
+                    </div>
+                    <div class="row" style="margin-top:10%">
+                      <div class="col">Student<br><span style="color:#ff0000">£60.00</span></div>
+                      <div class="col"><a href="signin.html"><button style="background-color: #ff0000;color: white;"><b>JOIN NOW</b></button></a></div>
+                    </div>
+                    <div class="row" style="margin-top:10%">
+                      <div class="col">Family<br><span style="color:#ff0000">£15.00</span></div>
+                      <div class="col"><a href="signin.html"><button style="background-color: #ff0000;color: white;"><b>JOIN NOW</b></button></a></div>
+                    </div>
+                    <div class="row" style="margin-top:10%">
+                      <div class="col">Family<br><span style="color:#ff0000">£25.00</span></div>
+                      <div class="col"><a href="signin.html"><button style="background-color: #ff0000;color: white;"><b>JOIN NOW</b></button></a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                    <div style="width:300px; height: 200px; background-image: url(images/member2.png); color:white;">
+                  </div>
+                </div>  
+              </div>
+              <!--End Second Col-->
+              <!--Third Col-->
+              <div class="col" style="margin: 3%; margin-left: 7%;">
+                <div class="row">
+                  <div style="width:300px; height: 100px; background-color: #ff0000; color:white;">
+                    <br>
+                    <h4 style="text-align: center; "><b>PAY AS YOU GO</b></h4>
+                    <h5 style="text-align: center; ">No Contract</h5>
+                    
+                  </div>
+                </div>
+                <div class="row">
+                  <div style="width:300px; height: 500px; background-color: black; color:white;">
+                    <div class="row" style="margin-top:10%">
+                      <div class="col">Basic <br><span style="color:#ff0000">£25.00</span></div>
+                      <div class="col"><a href="signin.html"><button style="background-color: #ff0000;color: white;"><b>JOIN NOW</b></button></a></div>
+                    </div>
+                    <div class="row" style="margin-top:10%">
+                      <div class="col">Add-On<br><span style="color:#ff0000">£35.00</span></div>
+                      <div class="col"><a href="signin.html"><button style="background-color: #ff0000;color: white;"><b>JOIN NOW</b></button></a></div>
+                    </div>
+                    <div class="row" style="margin-top:10%">
+                      <div class="col">Military <br><span style="color:#ff0000">£45.00</span></div>
+                      <div class="col"><a href="signin.html"><button style="background-color: #ff0000;color: white;"><b>JOIN NOW</b></button></a></div>
+                    </div>
+                    <div class="row" style="margin-top:10%">
+                      <div class="col">Student<br><span style="color:#ff0000">£60.00</span></div>
+                      <div class="col"><a href="signin.html"><button style="background-color: #ff0000;color: white;"><b>JOIN NOW</b></button></a></div>
+                    </div>
+                    <div class="row" style="margin-top:10%">
+                      <div class="col">Family<br><span style="color:#ff0000">£15.00</span></div>
+                      <div class="col"><a href="signin.html"><button style="background-color: #ff0000;color: white;"><b>JOIN NOW</b></button></a></div>
+                    </div>
+                    <div class="row" style="margin-top:10%">
+                      <div class="col">Family<br><span style="color:#ff0000">£25.00</span></div>
+                      <div class="col"><a href="signin.html"><button style="background-color: #ff0000;color: white;"><b>JOIN NOW</b></button></a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div style="width:300px; height: 200px; background-image: url(images/member3.png); color:white;">
+                  </div>
+                </div>  
+              </div>
+              <!--End Third Col-->
+            </div>
+          </div>
+
+          <p style="font-size: 20px;color: white;text-align: center;">
+            <b style="font-size: 30px;">MEMBERSHIP CONTRACTS</b>
+            <br><br>
+            Autopay contracts require credit card.
+            <br>
+A $25.00 enrollment fee is due upon sign up, and a $25.00 Facility Enhancement <br>
+fee is charged the 15th of July for autopay contracts or at the time of sign up for <br>
+ prepaid memberships.
+ <br><br>
+All discounted memberships require verification upon sign up.
+<br><br>
+All memberships include free group classes.
+<br><br>
+All memberships include 1 free personal training session.
+</p>
+ <!-- Footer -->
+ <footer class="text-center text-lg-start text-muted" style="background-color:rgb(0, 0, 0)">
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5" >
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <h2 style=" margin-top: 5%; text-align: center; color:white" class="fw-bold">LET'S STAY CONNECTED</h2>
+      </div>
+      <div class="row mt-3" style="margin-top: 10%;">
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-center">
+          <a href="https://www.facebook.com/"><img src="images/facebook1.png"style="margin-left: 5px;" alt=""></a>
+          <a href="https://www.linkedin.com/"><img src="images/linkedin1.png"style="margin-left: 5px;" alt=""></a>
+          <a href="https://www.instagram.com/"><img src="images/instagram1.png"style="margin-left: 5px;" alt=""></a>
+          <a href="https://www.youtube.com/"><img src="images/youtube1.png"style="margin-left: 5px;" alt="">
+          </a>
+        </div>
+      </div>
+      <br><br><br><br>
+      <div class="row align-items-center">
+        <div class="col">
+          <p style="font-size: 25px; color:white" ><b>BE STRONGER THAN YOUR EXCUSES!</b></p>
+          <p style="font-size: 15px;color:#ff0000"><img src="images/map.png" style="margin-right:3%"> <b>ADDRESS</b></p>
+          <h6 style="font-size: 18px; color:white">99MW+H5P IRON PARADISE FITNESS, Unnamed Road, Myitkyina</h6>
+          <a href="https://www.google.com/maps/dir//99MW%2BH5P+IRON+PARADISE+FITNESS,+Unnamed+Road,+Myitkyina/@25.3839628,97.3932663,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x373075a5eea8ea2d:0xc2aaef4888f5b56c!2m2!1d97.395455!2d25.383958" style="color: rgba(245, 245, 245, 0.934); text-decoration: none;">Get Directions</a>
+          <br><br>
+          <p style="font-size: 15px; color:#ff0000"><img src="images/phone.png" style="margin-right:3%"><b>PHONE</b></p>
+          <h6 style="font-size: 18px; color:white">(810) 285-9765</h6>
+          <p style="font-size: 15px; color:#ff0000"><img src="images/email.png" style="margin-right:3%"> <b>EMAIL</b></p>
+          <a href="https://mail.google.com/mail/u/0/#search/pa731338%40gmail.com" style="text-decoration: none;"><h6 style="font-size: 18px; color:white">pa731338@gmail.com</h6></a>
+          
+          
+        </div>
+        <div class="col">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.6225754819584!2d97.39326631445054!3d25.383962830328265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x373075a5eea8ea2d%3A0xc2aaef4888f5b56c!2sIRON%20PARADISE%20FITNESS!5e0!3m2!1sen!2smm!4v1677744582295!5m2!1sen!2smm" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col">
+          <p style="font-size: 25px; color:white" ><b>HOURS OF OPERATION</b></p>
+          <p style="font-size: 15px; color:red"><img src="images/clock.png" style="margin-right:3%">
+              <b>MONDAY THROUGH FRIDAY</b></p>
+          <h6 style="font-size: 18px; color:white;margin-top:6%;">6:00 AM to 10:00 PM</h6>
+          <p style="font-size: 15px; color:red"><img src="images/clock.png" style="margin-right:3%"> <b>SATURDAY</b> </p>
+          <h6 style="font-size: 18px; color:white;margin-top:6%;">7:00 AM to 7:00 PM</h6>
+          <p style="font-size: 15px; color:red"><img src="images/clock.png" style="margin-right:3%;margin-top:6%;"><b>SUNDAY</b> </p>
+          <p style="font-size: 18px; color:white">8:00 AM to 4:00 PM</p>
+          
+        </div>
+    </div>
+    <br><br><br>
+  </section>
+</footer>
+<div class="p-3" style="background-color: rgb(32, 32, 35); color: white;">
+  <p style="font-size: 13px; margin-left: 10%;">©2023 DUBO MARTIAL ARTS Center, all rights reserved. | Powered by Think</p>
+</div>
+<!-- Footer -->
+</body>
+</html>

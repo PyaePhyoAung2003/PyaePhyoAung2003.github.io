@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Training</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<style>
+.w-100 {
+  width: 100% !important;
+  height: 40vh;
+}
+@media (max-width: 767px) {
+		.carousel-inner .carousel-item > div {
+			display: none;
+		}
+		.carousel-inner .carousel-item > div:first-child {
+			display: block;
+		}
+	}
+	.carousel-inner .carousel-item.active,
+	.carousel-inner .carousel-item-next,
+	.carousel-inner .carousel-item-prev {
+		display: flex;
+	}
+	/* medium and up screens */
+	@media (min-width: 768px) {
+
+		.carousel-inner .carousel-item-end.active,
+		.carousel-inner .carousel-item-next {
+			transform: translateX(25%);
+		}
+		.carousel-inner .carousel-item-start.active, 
+		.carousel-inner .carousel-item-prev {
+			transform: translateX(-25%);
+		}
+	}
+	.carousel-inner .carousel-item-end,
+	.carousel-inner .carousel-item-start { 
+		transform: translateX(0);
+	}
+  nav{
+    color:white;
+  }
+</style>
+</head>
+<body style="background-color: rgb(87, 84, 84);">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ff0000;">
+        <div class="container-fluid">
+          <a class="navbar-brand"href="Home.html"><img src="images/logo1.png" 
+            style="margin-left: 10px; margin-right: 10px;"alt="logo3"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse fw-bold" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="navbar-brand"href="Home.html"><img src="images/home.png" 
+                  style="margin-left: 30px;"alt="logo "></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="membership.html" 
+                style="font-size: 1.1rem; margin-left: 30px; font-weight: bold;font-weight: bold;">MEMBERSHIP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="personaltraining.html" 
+                style="font-size: 1.1rem; margin-left: 30px; font-weight: bold;">PERSONAL TRAINING</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-left: 30px;font-size: 1.2rem; font-weight: bold;">
+                  CLASSES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="fitnesstraining.html">Fitness training</a></li>
+                  <hr>
+                  <li><a class="dropdown-item" href="selfdefence.html">Self-defence</a></li>
+                </ul>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="massage.html"
+                style="font-size: 1.1rem; margin-left: 30px;font-weight: bold;">MASSAGE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="sitemap.html"
+                style="font-size: 1.1rem; margin-left: 30px;font-weight: bold;">SITE MAP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="signin.html"
+                style="font-size: 1.1rem; margin-left: 30px;font-weight: bold;">SIGN IN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="signup.html"
+                style="font-size: 1.1rem; margin-left: 30px;font-weight: bold;">SIGN UP</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <p style="font-size: 20px;color: white;text-align: center;">
+      <b style="font-size: 30px;">PERSONAL TRAINING</b>
+      <br><br>
+      Dobu Martial Arts Fitness & Self-Defence Center is proud to offer cutting edge personal training at our <br>
+      state-of-the-art facility. Be Stronger than Your Excuses and contact us to <br>
+       customize a program that suits your individual goals. Take the first step towards <br>
+        getting fit… Get to Dobu Martial Arts Today!
+    </p>
+    <br><br>
+    <div style="background-color: rgb(45, 40, 40);">
+      <br>
+      
+    <div class="container" style="background-color: rgb(0, 0, 0); ">
+      <br>
+      <h1 style="color:white; text-align: center; margin: 4%;">OUR TRAINERS</h1>
+      <br>
+      <div class="row">
+        <div class="col">
+          <div class="row">
+            <div class="col" style="margin: 2%;">
+              <img src="images/trainer1.jpg" style="width:300px;height:300px;">
+            </div>
+            <div class="col"style="margin: 2%;">
+              <p style="color: white;">
+                <b style="font-size: 25px;">MAURICIO GOMEZ</b> 
+                 <br>
+                 <span style="color:#ff0000"><b style="font-size: 20px;">MARTIAL ARTS TRAINER</b></span><br>
+                 Mauricio Gomez is the owner and head trainer of Dobu Martial Arts Center <br>
+                  and Coaches in all martial arts. <br>
+                  He specializes in strength training, speed and agility training, nutrition <br>
+                  at all levels, including 4th Dan Blackbelt judo, 3rd Dan Blackbelt taekwondo, 1st Dan Blackbelt karate, Accredited Muay Thai coach.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="row">
+            <div class="col"style="margin: 2%;">
+              <img src="images/trainer2.jpg" style="width:300px;height:300px;">
+            </div>
+            <div class="col"style="margin: 2%;">
+              <p style="color: white;">
+                <b style="font-size: 25px;">GUY VICTORY</b> 
+              <br>
+              <span style="color:#ff0000"><b style="font-size: 20px;">MARTIAL ARTS TRAINER</b></span><br>
+                 Guy Victory is a Bryan University Graduate (Martial Arts Training) <br>
+                 and 2nd Dan Blackbelt Jiu-jitsu, 1st Dan Blackbelt judo and 3rd Dan Blackbel Boxing. He also specializes in Nutritional <br>
+                 Guidance & Rehabilitation. He leads individuals, or small group (4) trainings.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="row">
+            <div class="col"style="margin: 2%;">
+              <img src="images/trainer3.jpg" style="width:300px;height:300px;">
+            </div>
+            <div class="col"style="margin: 2%;">
+              <p style="color: white;">
+                <b style="font-size: 25px;">MORRIS DAVIS</b> 
+                 <br>
+                 <span style="color:#ff0000"><b style="font-size: 20px;">MARTIAL ARTS TRAINER</b></span><br>
+                 Morris Davis is the owner and head trainer of Dobu Martial Arts Center <br>
+                  and has been helping people achieve their Accredited Muay Thai coah goals for 3rd Dan Blackbelt karate. <br>He specializes in strength training, speed and agility training, nutrition<br>at all levels, including sports nutrition and contestphysique competitors.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="row">
+            <div class="col"style="margin: 2%;">
+              <img src="images/trainer4.jpg" style="width:300px;height:300px;">
+            </div>
+            <div class="col"style="margin: 2%;">
+              <p style="color: white;">
+                <b style="font-size: 25px;">SARAH NOVA</b> 
+              <br>
+              <span style="color:#ff0000"><b style="font-size: 20px;">KARATE TRAINER</b></span><br>
+                 SARAH NOVA is a Bryan University Graduate (SELF-DEFENCE) <br>
+                 and a Certified Personal Trainer. She also specializes in Nutritional <br>
+                 Guidance & Rehabilitation. She leads individuals, or small group (4) trainings..</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="row">
+            <div class="col"style="margin: 2%;">
+              <img src="images/trainer5.jpg" style="width:300px;height:300px;">
+            </div>
+            <div class="col"style="margin: 2%;">
+              <p style="color: white;">
+                <b style="font-size: 25px;">TRACI SANTIAGO</b> 
+                 <br>
+                 <span style="color:#ff0000"><b style="font-size: 20px;">FITNESS TRAINER</b></span><br>
+                 Traci Santiago is the owner and head trainer of Dobu Martial Arts Center <br>
+                  and has been helping people achieve their fitness goals for over 15 years. <br>
+                  BSC in Sports Science Qualified in health and nutrition Specialises in devising strength and conditioning programs for combat athletes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="row">
+            <div class="col"style="margin: 2%;">
+              <img src="images/trainer6.jpg" style="width:300px;height:300px;">
+            </div>
+            <div class="col"style="margin: 2%;">
+              <p style="color: white;">
+                <b style="font-size: 25px;">HARPREET KAUR</b> 
+              <br>
+              <span style="color:#ff0000"><b style="font-size: 20px;">FITNESS TRAINER</b></span><br>
+                Harpreet Kaur is BSC in physiotherapy MSc in Sports Science<br>
+                 and a Certified Personal Trainer. He also specializes in Nutritional <br>
+                 Guidance & Rehabilitation. He leads individuals, or small group (4) trainings.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+  </div>
+
+ <!-- Footer -->
+ <footer class="text-center text-lg-start text-muted" style="background-color:rgb(0, 0, 0)">
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5" >
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <h2 style=" margin-top: 5%; text-align: center; color:white" class="fw-bold">LET'S STAY CONNECTED</h2>
+      </div>
+      <div class="row mt-3" style="margin-top: 10%;">
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-center">
+          <a href="https://www.facebook.com/"><img src="images/facebook1.png"style="margin-left: 5px;" alt=""></a>
+          <a href="https://www.linkedin.com/"><img src="images/linkedin1.png"style="margin-left: 5px;" alt=""></a>
+          <a href="https://www.instagram.com/"><img src="images/instagram1.png"style="margin-left: 5px;" alt=""></a>
+          <a href="https://www.youtube.com/"><img src="images/youtube1.png"style="margin-left: 5px;" alt="">
+          </a>
+        </div>
+      </div>
+      <br><br><br><br>
+      <div class="row align-items-center">
+        <div class="col">
+          <p style="font-size: 25px; color:white" ><b>BE STRONGER THAN YOUR EXCUSES!</b></p>
+          <p style="font-size: 15px;color:#ff0000"><img src="images/map.png" style="margin-right:3%"> <b>ADDRESS</b></p>
+          <h6 style="font-size: 18px; color:white">99MW+H5P IRON PARADISE FITNESS, Unnamed Road, Myitkyina</h6>
+          <a href="https://www.google.com/maps/dir//99MW%2BH5P+IRON+PARADISE+FITNESS,+Unnamed+Road,+Myitkyina/@25.3839628,97.3932663,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x373075a5eea8ea2d:0xc2aaef4888f5b56c!2m2!1d97.395455!2d25.383958" style="color: rgba(245, 245, 245, 0.934); text-decoration: none;">Get Directions</a>
+          <br><br>
+          <p style="font-size: 15px; color:#ff0000"><img src="images/phone.png" style="margin-right:3%"><b>PHONE</b></p>
+          <h6 style="font-size: 18px; color:white">(810) 285-9765</h6>
+          <p style="font-size: 15px; color:#ff0000"><img src="images/email.png" style="margin-right:3%"> <b>EMAIL</b></p>
+          <a href="https://mail.google.com/mail/u/0/#search/pa731338%40gmail.com" style="text-decoration: none;"><h6 style="font-size: 18px; color:white">pa731338@gmail.com</h6></a>
+          
+          
+        </div>
+        <div class="col">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.6225754819584!2d97.39326631445054!3d25.383962830328265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x373075a5eea8ea2d%3A0xc2aaef4888f5b56c!2sIRON%20PARADISE%20FITNESS!5e0!3m2!1sen!2smm!4v1677744582295!5m2!1sen!2smm" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col">
+          <p style="font-size: 25px; color:white" ><b>HOURS OF OPERATION</b></p>
+          <p style="font-size: 15px; color:red"><img src="images/clock.png" style="margin-right:3%">
+              <b>MONDAY THROUGH FRIDAY</b></p>
+          <h6 style="font-size: 18px; color:white;margin-top:6%;">6:00 AM to 10:00 PM</h6>
+          <p style="font-size: 15px; color:red"><img src="images/clock.png" style="margin-right:3%"> <b>SATURDAY</b> </p>
+          <h6 style="font-size: 18px; color:white;margin-top:6%;">7:00 AM to 7:00 PM</h6>
+          <p style="font-size: 15px; color:red"><img src="images/clock.png" style="margin-right:3%;margin-top:6%;"><b>SUNDAY</b> </p>
+          <p style="font-size: 18px; color:white">8:00 AM to 4:00 PM</p>
+          
+        </div>
+    </div>
+    <br><br><br>
+  </section>
+</footer>
+<div class="p-3" style="background-color: rgb(32, 32, 35); color: white;">
+  <p style="font-size: 13px; margin-left: 10%;">©2023 DUBO MARTIAL ARTS Center, all rights reserved. | Powered by Think</p>
+</div>
+<!-- Footer -->
+</body>
+</html>

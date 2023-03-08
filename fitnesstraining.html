@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Training</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<style>
+.w-100 {
+  width: 100% !important;
+  height: 40vh;
+}
+@media (max-width: 767px) {
+		.carousel-inner .carousel-item > div {
+			display: none;
+		}
+		.carousel-inner .carousel-item > div:first-child {
+			display: block;
+		}
+	}
+	.carousel-inner .carousel-item.active,
+	.carousel-inner .carousel-item-next,
+	.carousel-inner .carousel-item-prev {
+		display: flex;
+	}
+	/* medium and up screens */
+	@media (min-width: 768px) {
+
+		.carousel-inner .carousel-item-end.active,
+		.carousel-inner .carousel-item-next {
+			transform: translateX(25%);
+		}
+		.carousel-inner .carousel-item-start.active, 
+		.carousel-inner .carousel-item-prev {
+			transform: translateX(-25%);
+		}
+	}
+	.carousel-inner .carousel-item-end,
+	.carousel-inner .carousel-item-start { 
+		transform: translateX(0);
+	}
+  nav{
+    color:white;
+  }
+</style>
+</head>
+<body style="background-color: rgb(53, 49, 49);">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ff0000;">
+        <div class="container-fluid">
+          <a class="navbar-brand"href="Home.html"><img src="images/logo1.png" 
+            style="margin-left: 10px; margin-right: 10px;"alt="logo3"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse fw-bold" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="navbar-brand"href="Home.html"><img src="images/home.png" 
+                  style="margin-left: 30px;"alt="logo "></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="membership.html" 
+                style="font-size: 1.1rem; margin-left: 30px; font-weight: bold;font-weight: bold;">MEMBERSHIP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="personaltraining.html" 
+                style="font-size: 1.1rem; margin-left: 30px; font-weight: bold;">PERSONAL TRAINING</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-left: 30px;font-size: 1.2rem; font-weight: bold;">
+                  CLASSES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="fitnesstraining.html">Fitness training</a></li>
+                  <hr>
+                  <li><a class="dropdown-item" href="selfdefence.html">Self-defence</a></li>
+                </ul>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="massage.html"
+                style="font-size: 1.1rem; margin-left: 30px;font-weight: bold;">MASSAGE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="sitemap.html"
+                style="font-size: 1.1rem; margin-left: 30px;font-weight: bold;">SITE MAP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="signin.html"
+                style="font-size: 1.1rem; margin-left: 30px;font-weight: bold;">SIGN IN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="signup.html"
+                style="font-size: 1.1rem; margin-left: 30px;font-weight: bold;">SIGN UP</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <!--First Col-->
+         <div class="col" style="margin: 3%; margin-left: 7%;">
+          <div class="row">
+            <div style="width:300px; height: 200px; background-image: url(images/gym1.png); color:white;">
+            </div>
+          </div>
+          <div class="row">
+            <div style="width:300px; height: 450px; background-color: black; color:white;">
+              <br>
+              <p style="text-align: left;font-size: 18px;"><b style="font-size: 23px;">XTREME HIP HOP</b><br><br>
+                This class is perfect for anyone<br>
+                 brand new to Xtreme Hip Hop!<br>
+                  A re-vamp of traditional step<br>
+                   aerobics, Xtreme Hip-Hop is a<br>
+                    high energy toning and cardio<br>
+                     class using great music, step<br>
+                      platforms & dance moves. With<br>
+                       routines set to old & new school<br>
+                        Hip-Hop, it makes you want to<br>
+                         get up and get moving while <br>
+                         getting in a great calorie burn!<br>
+                          Come join Feo, and get fit!</p>
+            </div>
+          </div>
+          <div class="row">
+            <div style="width:300px; height: 160px; background-color: #ff0000; color:white;">
+              <br>
+              <h5 style="text-align:left"><b>PRICING</b></h5>
+              <h5 style="text-align:left; "><b></b> Members:Free</h5>
+              <h5 style="text-align:left; "><b>Non-Members:$5.00 drop-in fee</b> </h5>
+            </div>
+          </div>  
+        </div>
+          <!--End First Col-->
+          <!--Second Col-->
+          <div class="col" style="margin: 3%; margin-left: 7%;">
+            <div class="row">
+              <div style="width:300px; height: 200px; background-image: url(images/gym2.png); color:white;">
+              </div>
+            </div>
+            <div class="row">
+              <div style="width:300px; height: 450px; background-color: black; color:white;">
+                <br>
+                <p style="text-align: left;font-size: 18px;"><b style="font-size: 23px;">XTREME HIP HOP</b><br><br>
+                  Xtreme Burn is a non-stop,hard<br>
+                   hitting cardio workout that will<br>
+                   push you through to the next<br>
+                    level. Appropriate for all fitness<br>
+                     levels, this program will have<br>
+                      you shedding pounds like you <br>
+                      never imagined!<br>
+              </div>
+            </div>
+            <div class="row">
+              <div style="width:300px; height: 160px; background-color: #ff0000; color:white;">
+                <br>
+                <h5 style="text-align:left"><b>PRICING</b></h5>
+                <h5 style="text-align:left; "><b></b> Members:Free</h5>
+                <h5 style="text-align:left; "><b>Non-Members:$5.00 drop-in fee</b> </h5>
+              </div>
+            </div>  
+          </div>
+        <!--End Second Col-->
+        <!--Third Col-->
+        <div class="col" style="margin: 3%; margin-left: 7%;">
+          <div class="row">
+            <div style="width:300px; height: 200px; background-image: url(images/gym3.png); color:white;">
+            </div>
+          </div>
+          <div class="row">
+            <div style="width:300px; height: 450px; background-color: black; color:white;">
+              <br>
+              <p style="text-align: left;font-size: 18px;"><b style="font-size: 23px;">CYCLING</b><br><br>
+                Get your cardio on! This high <br>
+                intensity, upbeat cycling class is <br>
+                 designed to get you moving fast <br>
+                  and burning an insane amount <br>
+                  of calories. Enjoy fast paced, <br>
+                   upbeat tunes that will keep you <br>
+                    motivated and energized. Class <br>
+                     is appropriate for all fitness <br>
+                      levels.
+                      </p>
+            </div>
+          </div>
+          <div class="row">
+            <div style="width:300px; height: 160px; background-color: #ff0000; color:white;">
+              <br>
+              <h5 style="text-align:left"><b>PRICING</b></h5>
+              <h5 style="text-align:left; "><b></b> Members:Free</h5>
+              <h5 style="text-align:left; "><b>Non-Members:$5.00 drop-in fee</b> </h5>
+            </div>
+          </div>  
+        </div>
+        <!--End Third Col-->
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <!--First Col-->
+         <div class="col" style="margin: 3%; margin-left: 7%;">
+          <div class="row">
+            <div style="width:300px; height: 200px; background-image: url(images/gym4.png); color:white;">
+            </div>
+          </div>
+          <div class="row">
+            <div style="width:300px; height: 450px; background-color: black; color:white;">
+              <br>
+              <p style="text-align: left;font-size: 18px;"><b style="font-size: 23px;">BOOT CAMP</b><br><br>
+                
+                  This class is a total body, heart <br>
+                   pumping, aerobic and strength <br>
+                   conditioning workout. High<br>
+                    intensity interval training <br>
+                    combined with full-body<br>
+                     strength training designed to<br>
+                      tone your body, improve your<br>
+                       endurance and give you the<br>
+                        MAX calorie burn.
+                  </p>
+            </div>
+          </div>
+          <div class="row">
+            <div style="width:300px; height: 160px; background-color: #ff0000; color:white;">
+              <br>
+              <h5 style="text-align:left"><b>PRICING</b></h5>
+              <h5 style="text-align:left; "><b></b> Members:Free</h5>
+              <h5 style="text-align:left; "><b>Non-Members:$5.00 drop-in fee</b> </h5>
+            </div>
+          </div>  
+        </div>
+          <!--End First Col-->
+          <!--Second Col-->
+          <div class="col" style="margin: 3%; margin-left: 7%;">
+            <div class="row">
+              <div style="width:300px; height: 200px; background-image: url(images/gym5.png); color:white;">
+              </div>
+            </div>
+            <div class="row">
+              <div style="width:300px; height: 450px; background-color: black; color:white;">
+                <br>
+                <p style="text-align: left;font-size: 18px;"><b style="font-size: 23px;">YOGA</b><br><br>
+                  
+                   Emphasis is placed on core <br>
+                    strength, flexibility and balance<br>
+                     as well as concentration and<br>
+                      breath control. This class is<br>
+                       based on physical postures<br>
+                        (asanas), deep breathing, <br>
+                        mindfulness and listening to the<br>
+                         body. Designed for all fitness<br>
+                          levels.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div style="width:300px; height: 160px; background-color: #ff0000; color:white;">
+                <br>
+                <h5 style="text-align:left"><b>PRICING</b></h5>
+                <h5 style="text-align:left; "><b></b> Members:Free</h5>
+                <h5 style="text-align:left; "><b>Non-Members:$5.00 drop-in fee</b> </h5>
+              </div>
+            </div>  
+          </div>
+        <!--End Second Col-->
+        <!--Third Col-->
+        <div class="col" style="margin: 3%; margin-left: 7%;">
+          <div class="row">
+            <div style="width:300px; height: 200px; background-image: url(images/gym6.png); color:white;">
+
+            </div>
+          </div>
+          <div class="row">
+            <div style="width:300px; height: 450px; background-color: black; color:white;">
+              <br>
+              <p style="text-align: left;font-size: 18px;"><b style="font-size: 23px;">STRETCH IT OUT!</b><br><br>
+                This is a gentle way to improve <br>
+                balance, reduce stress and<br>
+                 increase flexibility. This class<br>
+                  in an excellent class for seniors. All <br>
+                  ages welcome.!
+                        </p>
+            </div>
+          </div>
+          <div class="row">
+            <div style="width:300px; height: 160px; background-color: #ff0000; color:white;">
+              <br>
+              <h5 style="text-align:left"><b>PRICING</b></h5>
+              <h5 style="text-align:left; "><b></b> Members:Free</h5>
+              <h5 style="text-align:left; "><b>Non-Members:$5.00 drop-in fee</b> </h5>
+            </div>
+          </div>  
+        </div>
+        <!--End Third Col-->
+      </div>
+    </div>
+    <a href="classlist.html"><button style="margin-top: 5%; margin-left: 42%; width: 20%; height: 20%; background-color: #ff0000; color: white;">REGISTER FOR A CLASS TODAY</button></a>
+    
+ <!-- Footer -->
+ <footer class="text-center text-lg-start text-muted" style="background-color:rgb(0, 0, 0)">
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5" >
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <h2 style=" margin-top: 5%; text-align: center; color:white" class="fw-bold">LET'S STAY CONNECTED</h2>
+      </div>
+      <div class="row mt-3" style="margin-top: 10%;">
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-center">
+          <a href="https://www.facebook.com/"><img src="images/facebook1.png"style="margin-left: 5px;" alt=""></a>
+          <a href="https://www.linkedin.com/"><img src="images/linkedin1.png"style="margin-left: 5px;" alt=""></a>
+          <a href="https://www.instagram.com/"><img src="images/instagram1.png"style="margin-left: 5px;" alt=""></a>
+          <a href="https://www.youtube.com/"><img src="images/youtube1.png"style="margin-left: 5px;" alt="">
+          </a>
+        </div>
+      </div>
+      <br><br><br><br>
+      <div class="row align-items-center">
+        <div class="col">
+          <p style="font-size: 25px; color:white" ><b>BE STRONGER THAN YOUR EXCUSES!</b></p>
+          <p style="font-size: 15px;color:#ff0000"><img src="images/map.png" style="margin-right:3%"> <b>ADDRESS</b></p>
+          <h6 style="font-size: 18px; color:white">99MW+H5P IRON PARADISE FITNESS, Unnamed Road, Myitkyina</h6>
+          <a href="https://www.google.com/maps/dir//99MW%2BH5P+IRON+PARADISE+FITNESS,+Unnamed+Road,+Myitkyina/@25.3839628,97.3932663,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x373075a5eea8ea2d:0xc2aaef4888f5b56c!2m2!1d97.395455!2d25.383958" style="color: rgba(245, 245, 245, 0.934); text-decoration: none;">Get Directions</a>
+          <br><br>
+          <p style="font-size: 15px; color:#ff0000"><img src="images/phone.png" style="margin-right:3%"><b>PHONE</b></p>
+          <h6 style="font-size: 18px; color:white">(810) 285-9765</h6>
+          <p style="font-size: 15px; color:#ff0000"><img src="images/email.png" style="margin-right:3%"> <b>EMAIL</b></p>
+          <a href="https://mail.google.com/mail/u/0/#search/pa731338%40gmail.com" style="text-decoration: none;"><h6 style="font-size: 18px; color:white">pa731338@gmail.com</h6></a>
+          
+          
+        </div>
+        <div class="col">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.6225754819584!2d97.39326631445054!3d25.383962830328265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x373075a5eea8ea2d%3A0xc2aaef4888f5b56c!2sIRON%20PARADISE%20FITNESS!5e0!3m2!1sen!2smm!4v1677744582295!5m2!1sen!2smm" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col">
+          <p style="font-size: 25px; color:white" ><b>HOURS OF OPERATION</b></p>
+          <p style="font-size: 15px; color:red"><img src="images/clock.png" style="margin-right:3%">
+              <b>MONDAY THROUGH FRIDAY</b></p>
+          <h6 style="font-size: 18px; color:white;margin-top:6%;">6:00 AM to 10:00 PM</h6>
+          <p style="font-size: 15px; color:red"><img src="images/clock.png" style="margin-right:3%"> <b>SATURDAY</b> </p>
+          <h6 style="font-size: 18px; color:white;margin-top:6%;">7:00 AM to 7:00 PM</h6>
+          <p style="font-size: 15px; color:red"><img src="images/clock.png" style="margin-right:3%;margin-top:6%;"><b>SUNDAY</b> </p>
+          <p style="font-size: 18px; color:white">8:00 AM to 4:00 PM</p>
+          
+        </div>
+    </div>
+    <br><br><br>
+  </section>
+</footer>
+<div class="p-3" style="background-color: rgb(32, 32, 35); color: white;">
+  <p style="font-size: 13px; margin-left: 10%;">©2023 DUBO MARTIAL ARTS Center, all rights reserved. | Powered by Think</p>
+</div>
+<!-- Footer -->
+</body>
+</html>
